@@ -110,10 +110,13 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Window- when using the "this" keyword in the global scope it will have the value of 
+    "this" to be the window object.
+    2. Explicit- the "this" keyword is explicitly binded by
+    using the call or apply method.
+    3. Implicit- the "this" keyword is implied when using the dot notation
+    4. New Binding- when using constructor functions the "this" keyword will refer 
+    to the object created in the function and return by the constructor function
   */
   
   
