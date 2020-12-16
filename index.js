@@ -102,8 +102,9 @@ function Airplane(name) {
   }
 
   Baby.prototype = Object.create(Person.prototype);
+
   Baby.prototype.play = function(){
-   `Playing with ${this.favoriteToy}`
+   return `Playing with ${this.favoriteToy}`
  }
   
   /* 
